@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
         
-car_data = pd.read_csv('C:/Users/diana/Documents/mis proyectos/proyect_4/vehicles_us.csv')
+car_data = pd.read_csv('/Users/diana/Documents/mis proyectos/proyect_4/vehicles_us.csv')
 st.header('Características de los carros en anuncios de venta ')
 st.dataframe(car_data)
 
